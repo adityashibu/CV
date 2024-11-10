@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1731143765.6104 "c:/Users/Aditya Uni/CV/cv.tex" "cv.pdf" "cv" 1731143766.20338 0
+["pdflatex"] 1731266086.68976 "c:/Users/Aditya Uni/CV/cv.tex" "cv.pdf" "cv" 1731266087.31661 0
   "C:/Users/Aditya Uni/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731135508 82039 32c00b46ec68f3ddea0147d75839907f ""
   "C:/Users/Aditya Uni/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm0900.pk" 1731135573 10472 faffb02609240874e57adf66c13e212d ""
   "C:/Users/Aditya Uni/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1731135574 11548 9e76032426ec67465223f9d48785efb2 ""
@@ -82,10 +82,10 @@
   "C:/Users/Aditya Uni/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1699094857 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "C:/Users/Aditya Uni/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1730400552 7532 d2e1111e17bfebb1607d8ffa779705ec ""
   "C:/Users/Aditya Uni/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Aditya Uni/CV/cv.tex" 1731143765 10521 4caa583da56a718afcc385440092c457 ""
-  "cv.aux" 1731143766 835 143d8880e4145af8696b3d6c8d2630bf "pdflatex"
-  "cv.out" 1731143766 728 17112f356bbdf21201c75b99e0b1e0ed "pdflatex"
-  "cv.tex" 1731143765 10521 4caa583da56a718afcc385440092c457 ""
+  "c:/Users/Aditya Uni/CV/cv.tex" 1731266086 11792 7a91da166b786d8d848697c96e67cb71 ""
+  "cv.aux" 1731266087 835 9adf52bbc578c48a82b695f7c0091baf "pdflatex"
+  "cv.out" 1731266087 728 17112f356bbdf21201c75b99e0b1e0ed "pdflatex"
+  "cv.tex" 1731266086 11792 7a91da166b786d8d848697c96e67cb71 ""
   (generated)
   "cv.aux"
   "cv.log"
