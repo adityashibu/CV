@@ -21,6 +21,7 @@
 
 # LaTeX compilation artifacts
 *.pdf
+!cv.pdf
 *.ps
 
 # IDE or editor specific files
