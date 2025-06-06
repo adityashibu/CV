@@ -1,0 +1,169 @@
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{afterpage}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2] {
+	\item\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeItemWithoutTitle}[1] {
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4] {
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{{\LARGE Aditya Shibu}} & Email: \href{mailto:adityashibuonline@gmail.com}{adityashibuonline@gmail.com}\\
+	& Mobile:~~~+971 54 354 7825 \\
+	GitHub: \href{https://github.com/adityashibu}{~github.com/adityashibu} & LinkedIn: \href{https://www.linkedin.com/in/adityashibu}{linkedin.com/in/adityashibu} \\
+    Portfolio Website: \href{https://adityashibu.vercel.app/}{https://adityashibu.vercel.app/} & Dubai, UAE \\
+\end{tabular*}
+
+%-----------SUMMARY-----------------
+\section*{Summary}
+Detail-oriented Computer Science undergraduate specializing in Artificial Intelligence, with a strong interest in IT Audit, risk assessment, and internal controls. Experienced in automating processes, analyzing system workflows, and developing secure applications. Demonstrated ability to bridge the gap between technical development and organizational system needs, with a consistent academic record (GPA 3.9) and hands-on project delivery.
+
+%-----------EDUCATION-----------------
+\section{Education}
+	\resumeSubHeadingListStart
+		\resumeSubheading{Heriot-Watt University Dubai, UAE}{\textbf{GPA: 3.9}}{Bachelor's of Science (Hons.) - Computer Science with specialization in AI}{Sept 2023 - March 2026}
+		% {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures and Algorithms, Hardware Software Interface, Programming Languages, Software Engineering, Data Communications \& Networking, Artificial Intelligence and Intelligent Agents}}}
+	\resumeSubHeadingListEnd
+
+\vspace{-3pt}
+\section{Skills}
+\resumeSubHeadingListStart
+    \resumeSubItem{IT Audit-Relevant Tools}{PowerBI, Microsoft Power Automate, Teams, Excel, Python, Git, Linux}
+    \resumeSubItem{Programming Languages}{C, Python, JavaScript, Java, OCaml}
+    \resumeSubItem{Frameworks \& Libraries}{TensorFlow, Keras, ROS2, ReactJS, FastAPI, ExpressJS, TailwindCSS}
+    \resumeSubItem{Databases}{MongoDB, FireStore, MySQL, SQLite}
+    \resumeSubItem{Other Tools}{GitHub, Netlify, Vercel, VMWare, Selenium, ChatGPT, Ollama}
+\resumeSubHeadingListEnd
+
+\vspace{1pt}
+
+\section{Relevant Work Experience}
+	\resumeSubHeadingListStart
+		\resumeSubheading{Fincasa Group of Companies}{Dubai, UAE} {AI and Automation Intern}{May 2024 - July 2024}
+		\resumeItemListStart
+			\resumeItemWithoutTitle{Developed and Maintained the IT infrastructure within the company}
+			\resumeItemWithoutTitle{Implemented a custom workflow system using \textbf{Microsoft Platforms such as Teams, Planner, Power Automate and PowerBI}}
+			\resumeItemWithoutTitle{Built a \textbf{WhatsApp Automation and sorting System} to sort downloads according to chats on PC using \textbf{Python}}
+            \resumeItemWithoutTitle{Built a fully functional E-Commerce website using \textbf{Wix Studio}}
+		\resumeItemListEnd
+		\vspace{5pt}
+		\resumeSubheading{Lets Go Tourism LLC}{Dubai, UAE} {IT Engineer}{September 2023 - April 2024}
+		\resumeItemListStart
+			\resumeItemWithoutTitle{Developed IT infrastructure within the Company, including a website and several Automation systems in Python}
+			\resumeItemWithoutTitle{Automated several tasks such as billing and customer mailing using systems built on Python with a user friendly GUI}
+			\resumeItemWithoutTitle{Handled SEO and other digital marketing sectors within the company}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\vspace{-2pt}
+
+%-----------PROJECTS-----------------
+\section{Relevant Projects}
+\resumeSubHeadingListStart
+    \resumeSubItem{invoiceMaster}{Automated invoice generation and tracking using Python and Excel templates to streamline financial record-keeping. \textbf{Tech: Python, Tkinter, OpenPyXL} \href{https://github.com/adityashibu/invoiceMaster}{[Link]}}
+    \resumeSubItem{bookingMaster}{Developed a mail automation and customer database tool to centralize data using SQLite. \textbf{Tech: Python, SQLite, Pandas} \href{https://github.com/adityashibu/bookingMaster}{[Link]}}
+    \resumeSubItem{Local RAG}{Built a local retrieval-augmented generation app using Ollama and LangChain for secure internal knowledge queries. \textbf{Tech: Python, LangChain} \href{https://github.com/jonathanjthomas/GDG-RAG-Demo}{[Link]}}
+\resumeSubHeadingListEnd
+\vspace{-3pt}
+
+%-----------Awards-----------------
+\section{Relevant Certifications}
+\resumeSubHeadingListStart
+    \resumeSubItem{J.P. Morgan Software Engineering Simulation}{June 2024}
+    \resumeSubItem{Deep Learning Essentials – IBM}{Jan 2025}
+    \resumeSubItem{Foundational C\# – FreeCodeCamp}{June 2024}
+\resumeSubHeadingListEnd
+
+\vspace{2pt}
+
+\section{Volunteer Experience}
+	\resumeSubHeadingListStart
+		\resumeSubheading{\href{https://gdg.community.dev/gdg-on-campus-heriot-watt-university-dubai-dubai-united-arab-emirates}{Google Developer Groups}}{Dubai, UAE}{Co lead of AI and ML}{October 2024 - March 2025}
+		\resumeItemListStart
+			\resumeItemWithoutTitle{Working with a team of 9 to come up with workshops and talks on how to use tools provided by Google.}
+			\resumeItemWithoutTitle{Planning talks on the usage of AI libraries and frameworks such as TensorFlow, Cirq, VertexAI and more.}
+			\resumeItemWithoutTitle{Working on conducting tech events to act as a platform for students to showcase their projects and technologies.}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+		\resumeSubheading{{WattBuds - Peer Mentoring program}}{Dubai, UAE}{Event Coordinator}{September 2024 - March 2025}
+		\resumeItemListStart
+			\resumeItemWithoutTitle{Working with a team of 11 to come up with events for students at the university.}
+			\resumeItemWithoutTitle{Providing support to new/freshers to the university by providing academic support and sharing relevant resources.}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+		\resumeSubheading{{COP28}}{Dubai, UAE}{IT Volunteer}{December 2023}
+		\resumeItemListStart
+			\resumeItemWithoutTitle{Helped guests navigate around campus and provided IT support as needed.}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+\end{document}
