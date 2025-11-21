@@ -19,6 +19,9 @@
 # Backup files
 *~
 
+# Personal files
+MBZUAI.tex
+
 # LaTeX compilation artifacts
 *.pdf
 !cv.pdf
