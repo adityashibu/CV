@@ -35,3 +35,6 @@ Anduril.tex
 # Temporary files
 *.swp
 *.bak
+CoverLetters/e&.tex
+.gitignore
+CoverLetters/EDGE.tex
