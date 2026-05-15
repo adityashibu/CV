@@ -24,7 +24,8 @@ MBZUAI.tex
 Anduril.tex
 
 # LaTeX compilation artifacts
-*.pdf
+.pdf
+
 !cv.pdf
 *.ps
 
@@ -38,3 +39,14 @@ Anduril.tex
 CoverLetters/e&.tex
 .gitignore
 CoverLetters/EDGE.tex
+CoverLetters/Emirates.tex
+CoverLetters/Anduril copy.pdf
+CoverLetters/Anduril.pdf
+CoverLetters/e& copy.pdf
+CoverLetters/e&.pdf
+CoverLetters/EDGE copy.pdf
+CoverLetters/EDGE.pdf
+CoverLetters/Emirates.pdf
+CoverLetters/LM copy.pdf
+CoverLetters/LM.pdf
+CoverLetters/MBZUAI.pdf
