@@ -58,6 +58,14 @@
 	\end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\resumeSubheadingNoBullet}[4] {
+\vspace{-1pt}
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-5pt}
+}
+
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
 
@@ -83,18 +91,16 @@
 
 %-----------SUMMARY-----------------
 \section*{Summary}
-Autonomous systems engineer with hands-on experience across the full robotics stack: perception, planning, control, and edge deployment. Built and optimized real-time inference pipelines in C++, CUDA, and TensorRT on NVIDIA Jetson and L40s hardware. Two published conference papers and a journal preprint targeting RA-L. 1st Place at Formula Student AI.
+Final-year CS/AI student with hands-on research experience across the full robotics stack: perception, planning, control, and edge deployment. Built and optimized real-time inference pipelines in C++, CUDA, and TensorRT on NVIDIA Jetson and L40s hardware. Two published conference papers and a journal preprint targeting RA-L. 1st Place at Formula Student AI.
 
 %-----------EDUCATION-----------------
 \section{Education}
-	\resumeSubHeadingListStart
-		\resumeSubheading{Bachelor's of Science (Hons.) - Computer Science with specialization in AI}
-		{\textbf{GPA: 4.0/4.0}}
-        {Heriot Watt University, Dubai, UAE}{Sept 2023 - Present}
-		% {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures and Algorithms, Hardware Software Interface, Programming Languages, Software Engineering, Data Communications \& Networking, Artificial Intelligence and Intelligent Agents}}}
-	\resumeSubHeadingListEnd
+\resumeSubheadingNoBullet{BSc (Hons) Computer Science with Artificial Intelligence}
+{\textbf{GPA: 4.0/4.0, First Class Honours}}
+{Heriot Watt University, Dubai, UAE}{Sept 2023 - Jul 2026}
+% {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures and Algorithms, Hardware Software Interface, Programming Languages, Software Engineering, Data Communications \& Networking, Artificial Intelligence and Intelligent Agents}}}
 
-\vspace{-3pt}
+\vspace{5pt}
 
 \section{Research and Publications}
 	\resumeSubHeadingListStart
@@ -139,14 +145,14 @@ Autonomous systems engineer with hands-on experience across the full robotics st
 \section{Work Experience}
 	\resumeSubHeadingListStart
 	\resumeSubheading{Center for AI and Robotics (CAIR) - New York University}{Abu Dhabi, UAE}
-	{Research Collaborator}{Dec 2025 - Feb 2026}
+	{Research Collaborator (Remote / Part-Time)}{Dec 2025 - Feb 2026}
 			\resumeItemListStart
 				\resumeItemWithoutTitle{Architected and trained a \textbf{Conditional Imitation Learning (CILRS)} neural network using PyTorch to navigate complex urban intersections based on high-level GPS commands.}
 				\resumeItemWithoutTitle{Configured and managed headless CARLA simulations on dual \textbf{NVIDIA L40s HPC} infrastructure, building synthetic urban driving datasets (RGB + Telemetry) for end-to-end driving models.}
 			\resumeItemListEnd
 		\vspace{5pt}
 	\resumeSubheading{Lab for AI and Robotics Research (LAIRR) - Heriot Watt University}{Dubai, UAE}
-	{Research Intern}{Nov 2025 - Present}
+	{Research Intern (Hybrid / Part-Time)}{Nov 2025 - Present}
 			\resumeItemListStart
 				\resumeItemWithoutTitle{Engineered \textbf{LiZIP}, a novel auto-regressive neural compression architecture for LiDAR point clouds, writing the full inference pipeline from scratch in C++, custom CUDA kernels, and TensorRT.}
 				\resumeItemWithoutTitle{Optimized for bare-metal edge deployment on the NVIDIA Jetson AGX Orin, achieving real-time inference latency of \textbf{16.7ms to 26.8ms} per frame, \textbf{outperforming LASzip by up to 2x in speed} while consuming $<$20\% CPU and $<$1\% GPU utilization.}
@@ -155,15 +161,18 @@ Autonomous systems engineer with hands-on experience across the full robotics st
 			\resumeItemListEnd
         \vspace{5pt}
 	\resumeSubheading{AimbeyonD - Heriot Watt University}{Dubai, UAE}
-	{Research Intern}{Nov 2025 - Present}
+	{Research Technician (On-Site / Full Time)}{Nov 2025 - Present}
 			\resumeItemListStart
+				\resumeItemWithoutTitle{Led development of \textbf{Autonomous Underground Infrastructure Intelligence System (AUIIS)} in collaboration with the \textbf{Roads and Transport Authority (RTA) Dubai} for the \textbf{Dubai RDI Fund}.}
+				\resumeItemWithoutTitle{Built a multi-agent system combining drone swarms and wheeled robots for underground infrastructure inspection and maintenance.}
+				\resumeItemWithoutTitle{Developed a \textbf{ROS 2}-based software architecture for multi-robot coordination and control in \textbf{Gazebo Ignition} simulation.}
 				\resumeItemWithoutTitle{Developed \textbf{SkySim}, a ROS 2 Jazzy-based simulation environment on Gazebo for Natural Language Control of Drone Swarms using LLMs, with \textbf{Artificial Potential Fields}-based collision avoidance and formation flying}
 				% \resumeItemWithoutTitle{Integrated \textbf{Ollama} for on-device SLM inference with \textbf{ROS 2} nodes for drone swarm communication, enabling low-latency translation of high-level commands into low-level control instructions}
 				\resumeItemWithoutTitle{Deployed on \textbf{10x Bitcraze 2.1 Brushless Drones} using \textbf{Optitrack} motion capture for real-time position streaming to SLM}
 			\resumeItemListEnd
         \vspace{5pt}
        \resumeSubheading{Atlas Racing FS}{Dubai, UAE} 
-{Head of Driverless \& Lead Autonomous Systems Developer}{May 2025 - Present}
+{Head of Driverless \& Lead Autonomous Systems Developer (On-Site / Part-Time)}{May 2025 - Present}
         \resumeItemListStart
             % \resumeItemWithoutTitle{Developed end-to-end autonomous vehicle pipeline in \textbf{CARLA} with \textbf{deep neural networks for perception} and path planning (\textbf{Pure Pursuit, MPC}) integrated with \textbf{ROS 2 Humble}, achieving seamless simulation-to-reality transfer for Formula Student AI}
             \resumeItemWithoutTitle{Built a perception pipeline using \textbf{ZED2i stereo cameras and RoboSense Helios 16 LiDAR}, implementing \textbf{DBSCAN clustering} and sensor fusion for object detection and localization}
@@ -204,80 +213,80 @@ Autonomous systems engineer with hands-on experience across the full robotics st
 \vspace{-2pt}
 
 %-----------PROJECTS-----------------
-% \section{Projects}
-% 	\resumeSubHeadingListStart
-% 		\resumeSubItem{SkySim}{ROS 2 Jazzy based simulation environment on Gazebo for Natural Language Control of Drone Swarms using Large Language Models $\vert$ \textbf{Tech: ROS2 Jazzy, Gazebo, Python, Ubuntu 24.04} (January 2025) $\vert$ {\textbf{To be released soon}}}
-% 		\vspace*{4pt}
-%         \resumeSubItem{Hydrakon V1 and V2}{Worked with a team of 9 to build an autonomous racing car (Simulation and Hardware Integration) for Formula Student UK $\vert$ \textbf{Tech: CARLA, YOLO, ROS2, Cartographer, Python, C} (April 2025) $\vert$ \href{https://github.com/Atlas-Racing}{\textbf{https://github.com/Atlas-Racing}}}
-% 		\vspace*{4pt}
-% 		% \resumeSubItem{PowerHouse}{Developed a fully-fledged all-in-one smart home application with simulations of smart home devices to control devices that connect over Wi-Fi $\vert$ \textbf{Tech: ReactJS, Firebase, and Python with FastAPI} (April 2025) $\vert$ \href{https://github.com/PowerHouse-Project}{\textbf{https://github.com/PowerHouse-Project}}}
-% 		% \vspace*{4pt}
-% 		\resumeSubItem{Local RAG}{Developed a fully local RAG with Ollama and LangChain $\vert$ \textbf{Tech: Python, Ollama, and LangChain} (January 2025) $\vert$ \href{https://github.com/jonathanjthomas/GDG-RAG-Demo}{\textbf{https://github.com/jonathanjthomas/GDG-RAG-Demo}}}
-% 		\vspace*{4pt}
-% 		\resumeSubItem{Space Debris Classification}{Developed a space debris classification model using YOLO, enhancing training data by combining datasets from Roboflow for broader coverage $\vert$ \textbf{Tech: Python, Jupyter Notebook, YOLO} (December 2024) $\vert$ \href{https://github.com/adityashibu/spaceDebrisDetection}{\textbf{https://github.com/adityashibu/spaceDebrisDetection}}}
-% 		\vspace*{4pt}
-% 		%       \resumeSubItem{Claru24 Website}{Developed a fully functional ReactJS website for a company with custom components, animations and working forms $\vert$ \textbf{Tech: ReactJS, EmailJS, ThreeJS} (October 2024) $\vert$ \href{https://github.com/adityashibu/clarus_24}{\textbf{https://github.com/adityashibu/clarus\_24}}}
-% 		% \vspace*{2pt}
-% 		% \resumeSubItem{Personal Portfolio}{Developed my own personal portfolio website using React and NextJS to showcase my skills in a more visually appealing format $\vert$ \textbf{Tech: NextJS, ReactJS, GitHub API} (September 2024) $\vert$ \href{https://adityashibu.vercel.app}{\textbf{https://adityashibu.vercel.app}}}
-%         % \vspace*{4pt}
-% 		% \resumeSubItem{Heriot Hive}{Created a real-time chat application with User Auth, Express middleware, Database connections, and password encryption $\vert$ \textbf{Tech: MongoDB, ExpressJS, ReactJS, NodeJS, WebSockets} (September 2024) $\vert$ \href{https://github.com/adityashibu/HeriotHive}{\textbf{https://github.com/adityashibu/HeriotHive}}}
-%         % \vspace*{4pt}
-% 		% \vspace*{2pt}
-% 		% \resumeSubItem{invoiceMaster}{Automate invoicing tasks using Python, to create dated, and numbered invoices with a single pre-existing Excel template $\vert$ \textbf{Tech: Python, Tkinter, OpenPyXl} (September 2024) $\vert$ \href{https://github.com/adityashibu/invoiceMaster}{\textbf{https://github.com/adityashibu/invoiceMaster}}}
-% 		% \vspace*{2pt}
-% 		% \resumeSubItem{Image processing in C}{Created functions for adding noise and retrieving the source RGB values of the image in C $\vert$ \textbf{Tech: C} (March 2024) $\vert$ \href{https://github.com/adityashibu/ImageProcessing}{\textbf{https://github.com/adityashibu/ImageProcessing}}}
-%   		% \vspace*{2pt}
-% 		% \resumeSubItem{bookingMaster}{Automate sending mails, fetching and querying accumulated customer data using a local sqlite database $\vert$ \textbf{Tech: Python, SQLite, OpenPyXl, Pandas} (February 2024) $\vert$ \href{https://github.com/adityashibu/bookingMaster}{\textbf{https://github.com/adityashibu/bookingMaster}}}
-% 	\resumeSubHeadingListEnd
-% \vspace{-3pt}
+\section{Projects}
+	\resumeSubHeadingListStart
+		\resumeSubItem{Kernal Intelligence through Expert Fine-tuning (KITE)}{A fine tuned Small Language Model (SLM) that has been trained on a handmade dataset of Python and CUDA pairs to train the SLM to convert unoptimized Python code to optimized CUDA code $\vert$ \textbf{Tech: Python, OpenAI Triton, CUDA} (May 2025) $\vert$ {\textbf{To be released soon}}}
+		\vspace*{4pt}
+        \resumeSubItem{Hydrakon V1 and V2}{Worked with a team of 9 to build an autonomous racing car (Simulation and Hardware Integration) for Formula Student UK $\vert$ \textbf{Tech: CARLA, YOLO, ROS2, Cartographer, Python, C} (April 2025) $\vert$ \href{https://github.com/Atlas-Racing}{\textbf{https://github.com/Atlas-Racing}}}
+		\vspace*{4pt}
+		% \resumeSubItem{PowerHouse}{Developed a fully-fledged all-in-one smart home application with simulations of smart home devices to control devices that connect over Wi-Fi $\vert$ \textbf{Tech: ReactJS, Firebase, and Python with FastAPI} (April 2025) $\vert$ \href{https://github.com/PowerHouse-Project}{\textbf{https://github.com/PowerHouse-Project}}}
+		% \vspace*{4pt}
+		\resumeSubItem{Local RAG}{Developed a fully local RAG with Ollama and LangChain $\vert$ \textbf{Tech: Python, Ollama, and LangChain} (January 2025) $\vert$ \href{https://github.com/jonathanjthomas/GDG-RAG-Demo}{\textbf{https://github.com/jonathanjthomas/GDG-RAG-Demo}}}
+		\vspace*{4pt}
+		\resumeSubItem{Space Debris Classification}{Developed a space debris classification model using YOLO, enhancing training data by combining datasets from Roboflow for broader coverage $\vert$ \textbf{Tech: Python, Jupyter Notebook, YOLO} (December 2024) $\vert$ \href{https://github.com/adityashibu/spaceDebrisDetection}{\textbf{https://github.com/adityashibu/spaceDebrisDetection}}}
+		\vspace*{4pt}
+		%       \resumeSubItem{Claru24 Website}{Developed a fully functional ReactJS website for a company with custom components, animations and working forms $\vert$ \textbf{Tech: ReactJS, EmailJS, ThreeJS} (October 2024) $\vert$ \href{https://github.com/adityashibu/clarus_24}{\textbf{https://github.com/adityashibu/clarus\_24}}}
+		% \vspace*{2pt}
+		% \resumeSubItem{Personal Portfolio}{Developed my own personal portfolio website using React and NextJS to showcase my skills in a more visually appealing format $\vert$ \textbf{Tech: NextJS, ReactJS, GitHub API} (September 2024) $\vert$ \href{https://adityashibu.vercel.app}{\textbf{https://adityashibu.vercel.app}}}
+        % \vspace*{4pt}
+		% \resumeSubItem{Heriot Hive}{Created a real-time chat application with User Auth, Express middleware, Database connections, and password encryption $\vert$ \textbf{Tech: MongoDB, ExpressJS, ReactJS, NodeJS, WebSockets} (September 2024) $\vert$ \href{https://github.com/adityashibu/HeriotHive}{\textbf{https://github.com/adityashibu/HeriotHive}}}
+        % \vspace*{4pt}
+		% \vspace*{2pt}
+		% \resumeSubItem{invoiceMaster}{Automate invoicing tasks using Python, to create dated, and numbered invoices with a single pre-existing Excel template $\vert$ \textbf{Tech: Python, Tkinter, OpenPyXl} (September 2024) $\vert$ \href{https://github.com/adityashibu/invoiceMaster}{\textbf{https://github.com/adityashibu/invoiceMaster}}}
+		% \vspace*{2pt}
+		% \resumeSubItem{Image processing in C}{Created functions for adding noise and retrieving the source RGB values of the image in C $\vert$ \textbf{Tech: C} (March 2024) $\vert$ \href{https://github.com/adityashibu/ImageProcessing}{\textbf{https://github.com/adityashibu/ImageProcessing}}}
+  		% \vspace*{2pt}
+		% \resumeSubItem{bookingMaster}{Automate sending mails, fetching and querying accumulated customer data using a local sqlite database $\vert$ \textbf{Tech: Python, SQLite, OpenPyXl, Pandas} (February 2024) $\vert$ \href{https://github.com/adityashibu/bookingMaster}{\textbf{https://github.com/adityashibu/bookingMaster}}}
+	\resumeSubHeadingListEnd
+\vspace{-3pt}
 
 %-----------Awards-----------------
-% \section{Awards and Certifications}
-% \begin{description}[font=$\bullet$]
-% 	% \item {\href{https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b7fde698-68d8-42fe-9724-310f8c223c91&}{\textbf{SIMULINK Onramp} - Mathworks} - March, 2026}
-% 	% \vspace{-5pt}
-% 	% \item {\href{https://matlabacademy.mathworks.com/progress/share/certificate.html?id=68acf084-2bc7-4102-8946-04df43deefed&}{\textbf{MATLAB Onramp} - Mathworks} - March, 2026}
-% 	% \vspace{-5pt}
-% 	\item {{\textbf{A Beginner's Guide to Autonomous Robots} - NVIDIA} - March, 2026}
-% 	\vspace{-5pt}
-% 	% \item {\href{https://www.linkedin.com/learning/certificates/74481223c1d7e110d98b0ac25963d1dbd9a8e0df9215617c12fd43cefb27317f?u=2374954}{\textbf{Learning Linux Command Line} - LinkedIn} - February, 2026}
-% 	% \vspace{-5pt}
-% 	\item {\href{https://imeche.org/events/formula-student/previous-events/2025-award-winners}{\textbf{Babcock FS-AI Overall Statics Award Winner} - IMechE} - July, 2025}
-% 	\vspace{-5pt}
-%     \item {\href{https://imeche.org/events/formula-student/previous-events/2025-award-winners}{\textbf{FS-AI Real World Award Winner} - IMechE} - July, 2025}
-% 	\vspace{-5pt}
-% 	\item {\href{https://www.credly.com/badges/dd3240b6-17d3-4841-8749-ca1c196a7bd0/public_url}{\textbf{Deep Learning Essentials Intermediate} - IBM} - January, 2025}
-% 	\vspace{-5pt}
-% 	\item {\href{https://www.credly.com/badges/c1548397-80ef-474f-8cbc-873f5a882eb8/public_url}{\textbf{GitHub Foundations certification} - GitHub} - December, 2024}
-% 	% \vspace{-5pt}
-% 	% \item {\href{https://www.freecodecamp.org/certification/adityashibu/foundational-c-sharp-with-microsoft}{\textbf{Foundational C\# with Microsoft} - FreeCodeCamp} - June, 2024}
-% 	% \vspace{-5pt}
-% 	% \item {\href{https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_pNiFidCJYzf9kx6wW_1717925319604_completion_certificate.pdf}{\textbf{Software Engineering Job Simulation} - J.P. Morgan} - June, 2024}
-% 	% \vspace{-5pt}
-% 	% \item {\href{https://skillshop.exceedlms.com/student/award/c28EKDTvoJ87hYTNubQLcQ8z}{\textbf{Google Analytics Individual Qualification} - Google} - July, 2023}
-% 	% \vspace{-5pt}
-% 	% \item {\href{https://certificates.cs50.io/4ece154c-812e-4276-a9e9-653b0f4edf08.pdf?size=letter}{\textbf{CS50P - Introduction to programming using Python} - EdX} - July, 2023}
-% 	% \vspace{-5pt}
-% 	% \item {{\textbf{Trinity Music Certification} - Trinity College London - March, 2014}}
-% 	% \vspace{-5pt}
+\section{Awards and Certifications}
+\begin{description}[font=$\bullet$]
+	% \item {\href{https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b7fde698-68d8-42fe-9724-310f8c223c91&}{\textbf{SIMULINK Onramp} - Mathworks} - March, 2026}
+	% \vspace{-5pt}
+	% \item {\href{https://matlabacademy.mathworks.com/progress/share/certificate.html?id=68acf084-2bc7-4102-8946-04df43deefed&}{\textbf{MATLAB Onramp} - Mathworks} - March, 2026}
+	% \vspace{-5pt}
+	\item {{\textbf{A Beginner's Guide to Autonomous Robots} - NVIDIA} - March, 2026}
+	\vspace{-5pt}
+	% \item {\href{https://www.linkedin.com/learning/certificates/74481223c1d7e110d98b0ac25963d1dbd9a8e0df9215617c12fd43cefb27317f?u=2374954}{\textbf{Learning Linux Command Line} - LinkedIn} - February, 2026}
+	% \vspace{-5pt}
+	\item {\href{https://imeche.org/events/formula-student/previous-events/2025-award-winners}{\textbf{Babcock FS-AI Overall Statics Award Winner} - IMechE} - July, 2025}
+	\vspace{-5pt}
+    \item {\href{https://imeche.org/events/formula-student/previous-events/2025-award-winners}{\textbf{FS-AI Real World Award Winner} - IMechE} - July, 2025}
+	\vspace{-5pt}
+	\item {\href{https://www.credly.com/badges/dd3240b6-17d3-4841-8749-ca1c196a7bd0/public_url}{\textbf{Deep Learning Essentials Intermediate} - IBM} - January, 2025}
+	\vspace{-5pt}
+	\item {\href{https://www.credly.com/badges/c1548397-80ef-474f-8cbc-873f5a882eb8/public_url}{\textbf{GitHub Foundations certification} - GitHub} - December, 2024}
+	% \vspace{-5pt}
+	% \item {\href{https://www.freecodecamp.org/certification/adityashibu/foundational-c-sharp-with-microsoft}{\textbf{Foundational C\# with Microsoft} - FreeCodeCamp} - June, 2024}
+	% \vspace{-5pt}
+	% \item {\href{https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_pNiFidCJYzf9kx6wW_1717925319604_completion_certificate.pdf}{\textbf{Software Engineering Job Simulation} - J.P. Morgan} - June, 2024}
+	% \vspace{-5pt}
+	% \item {\href{https://skillshop.exceedlms.com/student/award/c28EKDTvoJ87hYTNubQLcQ8z}{\textbf{Google Analytics Individual Qualification} - Google} - July, 2023}
+	% \vspace{-5pt}
+	% \item {\href{https://certificates.cs50.io/4ece154c-812e-4276-a9e9-653b0f4edf08.pdf?size=letter}{\textbf{CS50P - Introduction to programming using Python} - EdX} - July, 2023}
+	% \vspace{-5pt}
+	% \item {{\textbf{Trinity Music Certification} - Trinity College London - March, 2014}}
+	% \vspace{-5pt}
 
-% \end{description}
-% \vspace{2pt}
+\end{description}
+\vspace{2pt}
 
-% \section{Leadership and Volunteering Experience}
-% \resumeSubHeadingListStart
-%         \resumeSubheading{{Google Developer Groups}}{Dubai, UAE}{Lead of AI and ML}{May 2025 - Present}
-%         \resumeItemListStart
-% 			\resumeItemWithoutTitle{Promoted from Co-lead to Lead after organizing a successful workshop with \textbf{120+ attendees}, demonstrating exceptional event management and technical presentation skills}
-% 		\resumeItemListEnd
-% 	\resumeSubHeadingListEnd
+\section{Leadership and Volunteering Experience}
+\resumeSubHeadingListStart
+        \resumeSubheading{{Google Developer Groups}}{Dubai, UAE}{Lead of AI and ML}{May 2025 - Present}
+        \resumeItemListStart
+			\resumeItemWithoutTitle{Promoted from Co-lead to Lead after organizing a successful workshop with \textbf{120+ attendees}, demonstrating exceptional event management and technical presentation skills}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
 
-% 	\resumeSubHeadingListStart
-%         \resumeSubheading{{Heriot Watt University}}{Dubai, UAE}{MACS Department Officer}{August 2025 - Present}
-%         \resumeItemListStart
-% 		  \resumeItemWithoutTitle{Lead a team of \textbf{12 class representatives} across all MACS courses, serving as primary student advocate in faculty committees and implementing policy changes impacting \textbf{600+ students}}
-% 		\resumeItemListEnd
-% 	\resumeSubHeadingListEnd
+	\resumeSubHeadingListStart
+        \resumeSubheading{{Heriot Watt University}}{Dubai, UAE}{MACS Department Officer}{August 2025 - Present}
+        \resumeItemListStart
+		  \resumeItemWithoutTitle{Lead a team of \textbf{12 class representatives} across all MACS courses, serving as primary student advocate in faculty committees and implementing policy changes impacting \textbf{600+ students}}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
 
-%     \vspace*{\fill}
+    \vspace*{\fill}
 \end{document}
