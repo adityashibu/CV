@@ -6,15 +6,10 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
-      - name: Compile CV
+      - name: Compile CV_robotics
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: cv.tex
-          latexmk_use_xelatex: true
-      - name: Compile Resume
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: resume.tex
+          root_file: CV_robotics.tex
           latexmk_use_xelatex: true
       - name: Check output
         run: ls
@@ -23,5 +18,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            cv.pdf
-            resume.pdf
+            CV_robotics.pdf
