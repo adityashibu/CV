@@ -91,7 +91,7 @@
 
 %-----------SUMMARY-----------------
 \section*{Summary}
-Final-year CS/AI student with hands-on research experience across the full robotics stack: perception, planning, control, and edge deployment. Built and optimized real-time inference pipelines in C++, CUDA, and TensorRT on NVIDIA Jetson and L40s hardware. Two published conference papers and a journal preprint targeting RA-L. 1st Place at Formula Student AI.
+CS/AI graduate with hands-on research experience across the full robotics stack: perception, planning, control, and edge deployment. Built and optimized real-time inference pipelines in C++, CUDA, and TensorRT on NVIDIA Jetson and L40s hardware. Two published conference papers and a journal preprint targeting RA-L. 1st Place at Formula Student AI.
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -135,8 +135,8 @@ Final-year CS/AI student with hands-on research experience across the full robot
 \section{Skills}
     \resumeSubHeadingListStart
         \resumeSubItem{Languages}{C, C++, Python, CUDA, JavaScript, Java, OCaml}
-        \resumeSubItem{AI / Robotics}{PyTorch, TensorFlow, TensorRT, YOLO, ROS2, CARLA, Gazebo, Ollama}
-        % \resumeSubItem{Web / General}{ReactJS, NextJS, ExpressJS, TailwindCSS, MongoDB, MySQL, FireStore}
+        \resumeSubItem{AI / Robotics}{Computer Vision, OpenCV, Open3D, NumPy, LiDAR, point clouds, sensor fusion, coordinate transformations (tf), GNSS/INS (RTK, NTRIP), Data loaders, KITTI, nuScenes, Argoverse, PyTorch, TensorFlow, TensorRT, YOLO, ROS 2, rosbag, CARLA, Gazebo, Ollama}
+        % \resumeSubItem{AI / Robotics}{PyTorch, TensorFlow, TensorRT, YOLO, ROS2, CARLA, Gazebo, Ollama}
         \resumeSubItem{Tools}{Linux, Git, GitHub Actions, Docker}
     \resumeSubHeadingListEnd
 
@@ -151,34 +151,41 @@ Final-year CS/AI student with hands-on research experience across the full robot
 				\resumeItemWithoutTitle{Configured and managed headless CARLA simulations on dual \textbf{NVIDIA L40s HPC} infrastructure, building synthetic urban driving datasets (RGB + Telemetry) for end-to-end driving models.}
 			\resumeItemListEnd
 		\vspace{5pt}
+    \resumeSubheading{CanopyAI}{Dubai, UAE}
+	{Forward Deployed AI Engineer (Freelance)}{Oct 2026 - Present}
+			\resumeItemListStart
+				\resumeItemWithoutTitle{Architecting a \textbf{PPE detection and color-coding} computer vision pipeline using \textbf{YOLO26 with SAHI} (Slicing Aided Hyper Inference) on an \textbf{NVIDIA Blackwell} GPU, for integration into a software platform serving clients across retail, hospitality, mining and construction.}
+				\resumeItemWithoutTitle{Deployed on-site edge AI infrastructure for \textbf{Dubai Holding (Nakheel)}, flashing and configuring 4 \textbf{NVIDIA Jetson AGX Thor/Orin} units and an \textbf{RTX PRO 6000} workstation, with network configuration and multi-camera integration.}
+			\resumeItemListEnd
+		\vspace{5pt}
 	\resumeSubheading{Lab for AI and Robotics Research (LAIRR) - Heriot Watt University}{Dubai, UAE}
 	{Research Intern (Hybrid / Part-Time)}{Nov 2025 - Present}
 			\resumeItemListStart
-				\resumeItemWithoutTitle{Engineered \textbf{LiZIP}, a novel auto-regressive neural compression architecture for LiDAR point clouds, writing the full inference pipeline from scratch in C++, custom CUDA kernels, and TensorRT.}
-				\resumeItemWithoutTitle{Optimized for bare-metal edge deployment on the NVIDIA Jetson AGX Orin, achieving real-time inference latency of \textbf{16.7ms to 26.8ms} per frame, \textbf{outperforming LASzip by up to 2x in speed} while consuming $<$20\% CPU and $<$1\% GPU utilization.}
-				\resumeItemWithoutTitle{Successfully outperformed industry standards \textbf{LASzip and Google Draco} across both datasets in compression efficiency, reducing payload sizes to \textbf{186 KB and 605 KB} respectively, while maintaining a near-lossless maximum error of \textbf{$<$0.017 mm}.}
-				\resumeItemWithoutTitle{Built the perception system for \textbf{CogWaters}, a multi-institutional \textbf{Dubai RDI-funded} project (Heriot-Watt Dubai, Edinburgh, UK National Robotarium) developing cognitive architectures for autonomous debris-collecting USVs — collected and annotated simulation datasets, trained a \textbf{YOLOv8} model, and optimized inference with \textbf{TensorRT} for real-time detection.}
+                \resumeItemWithoutTitle{Currently leading a team on a hardware-tested drone swarm benchmark study with \textbf{Prof. Claudio Zito}, comparing formation control, shape assignment, dropout recovery, and drone coordination on \textbf{Bitcraze Crazyflie} swarms, targeting a review and experimental benchmark paper.}
+				\resumeItemWithoutTitle{Engineered \textbf{LiZIP}, a novel auto-regressive neural compression architecture for LiDAR point clouds, with the full inference pipeline written from scratch in \textbf{C++}, custom \textbf{CUDA} kernels, and \textbf{TensorRT}, and the model developed in \textbf{PyTorch}.}
+                \resumeItemWithoutTitle{Built \textbf{PyTorch data loaders} and preprocessing pipelines for \textbf{KITTI}, \textbf{nuScenes}, and \textbf{Argoverse}, training LiZIP on nuScenes and generalizing to Argoverse with even higher compression (payloads of \textbf{605 KB on nuScenes and 186 KB on Argoverse}), outperforming \textbf{LASzip and Google Draco} at a near-lossless maximum error of \textbf{$<$0.017 mm}, and benchmarking on KITTI, with \textbf{Open3D} used to inspect reconstructed \textbf{point clouds}.}
+                \resumeItemWithoutTitle{Optimized for bare-metal edge deployment on the NVIDIA Jetson AGX Orin, achieving real-time inference latency of \textbf{16.7ms to 26.8ms} per frame, \textbf{outperforming LASzip by up to 2x in speed} while consuming $<$20\% CPU and $<$1\% GPU utilization.}
+				\resumeItemWithoutTitle{Built the perception system for \textbf{CogWaters}, a multi-institutional \textbf{Dubai RDI-funded} project (Heriot-Watt Dubai, Edinburgh, UK National Robotarium) developing cognitive architectures for autonomous debris-collecting USVs: collected and annotated simulation datasets, trained a \textbf{YOLOv8} model, and optimized inference with \textbf{TensorRT} for real-time detection.}
 			\resumeItemListEnd
         \vspace{5pt}
 	\resumeSubheading{AimbeyonD - Heriot Watt University}{Dubai, UAE}
-	{Research Technician (On-Site / Full Time)}{Nov 2025 - Present}
+	{Research Technician (On-Site / Part Time)}{Nov 2025 - Present}
 			\resumeItemListStart
+                \resumeItemWithoutTitle{Currently leading a team to distill an LLM into a small language model that runs locally on lab machines and is spatially aware, extending natural language control from static shapes to drone swarm formations.}
+                \resumeItemWithoutTitle{Developed \textbf{SkySim}, a ROS 2 Jazzy-based simulation environment on Gazebo for Natural Language Control of Drone Swarms using LLMs, with \textbf{Artificial Potential Fields}-based collision avoidance and formation flying}
+                \resumeItemWithoutTitle{Deployed SkySim on \textbf{10x Bitcraze Crazyflie 2.1 Brushless} drones using OptiTrack motion capture for real-time position streaming to the SLM, enabling natural language control of real drone swarms in static formations.}
 				\resumeItemWithoutTitle{Led development of \textbf{Autonomous Underground Infrastructure Intelligence System (AUIIS)} in collaboration with the \textbf{Roads and Transport Authority (RTA) Dubai} for the \textbf{Dubai RDI Fund}.}
-				\resumeItemWithoutTitle{Built a multi-agent system combining drone swarms and wheeled robots for underground infrastructure inspection and maintenance.}
-				\resumeItemWithoutTitle{Developed a \textbf{ROS 2}-based software architecture for multi-robot coordination and control in \textbf{Gazebo Ignition} simulation.}
-				\resumeItemWithoutTitle{Developed \textbf{SkySim}, a ROS 2 Jazzy-based simulation environment on Gazebo for Natural Language Control of Drone Swarms using LLMs, with \textbf{Artificial Potential Fields}-based collision avoidance and formation flying}
-				% \resumeItemWithoutTitle{Integrated \textbf{Ollama} for on-device SLM inference with \textbf{ROS 2} nodes for drone swarm communication, enabling low-latency translation of high-level commands into low-level control instructions}
-				\resumeItemWithoutTitle{Deployed on \textbf{10x Bitcraze 2.1 Brushless Drones} using \textbf{Optitrack} motion capture for real-time position streaming to SLM}
 			\resumeItemListEnd
         \vspace{5pt}
        \resumeSubheading{Atlas Racing FS}{Dubai, UAE} 
-{Head of Driverless \& Lead Autonomous Systems Developer (On-Site / Part-Time)}{May 2025 - Present}
+{Head of Driverless \& Lead Autonomous Systems Developer (On-Site / Part-Time)}{May 2025 - July 2026}
         \resumeItemListStart
-            % \resumeItemWithoutTitle{Developed end-to-end autonomous vehicle pipeline in \textbf{CARLA} with \textbf{deep neural networks for perception} and path planning (\textbf{Pure Pursuit, MPC}) integrated with \textbf{ROS 2 Humble}, achieving seamless simulation-to-reality transfer for Formula Student AI}
-            \resumeItemWithoutTitle{Built a perception pipeline using \textbf{ZED2i stereo cameras and RoboSense Helios 16 LiDAR}, implementing \textbf{DBSCAN clustering} and sensor fusion for object detection and localization}
-            \resumeItemWithoutTitle{Optimized \textbf{YOLO inference with TensorRT acceleration}, reducing latency by \textbf{88\%} (140ms → 16ms) and achieving stable \textbf{40-50 FPS} for real-time autonomous vehicle operation}
-            \resumeItemWithoutTitle{Led technical development resulting in \textbf{1st Place Overall Statics} and \textbf{1st Place Real World AI}, demonstrating production-ready autonomous systems performance}
-			\resumeItemWithoutTitle{Scaled the driverless division from a \textbf{5-person founding team to 60+ members across design, outreach, and engineering subsections}, establishing organizational structure and mentoring new recruits.}
+        \resumeItemWithoutTitle{Built a multi-sensor perception pipeline in \textbf{ROS 2} using \textbf{ZED2i stereo cameras and RoboSense Helios 16 LiDAR}, implementing \textbf{DBSCAN clustering} and camera-LiDAR sensor fusion for object detection and localization, defining the vehicle \textbf{tf frames} with \textbf{coordinate transformations} from the LiDAR and camera frames to the vehicle frame, and building an \textbf{OpenCV} HUD to display YOLO health and live detections}
+        \resumeItemWithoutTitle{Recorded and replayed \textbf{ROS bags} to debug the perception pipeline and investigate a delayed steering response on the car from logged sensor and control data}
+        \resumeItemWithoutTitle{Integrated a \textbf{CHCNAV GNSS/INS} into the ROS 2 stack over Ethernet (RJ45) using the \textbf{nmea\_navsat\_driver} package, configured \textbf{NTRIP} for \textbf{RTK} corrections, and wrote custom scripts to auto-connect and monitor \textbf{GNSS} stream health}
+        \resumeItemWithoutTitle{Optimized \textbf{YOLO inference with TensorRT acceleration}, reducing latency by \textbf{88\%} (140ms → 16ms) and achieving stable \textbf{40-50 FPS} for real-time autonomous vehicle operation}
+        \resumeItemWithoutTitle{Led technical development resulting in \textbf{1st Place Overall Statics} and \textbf{1st Place Real World AI}, demonstrating production-ready autonomous systems performance}
+        \resumeItemWithoutTitle{Scaled the driverless division from a \textbf{5-person founding team to 60+ members across design, outreach, and engineering subsections}, establishing organizational structure and mentoring new recruits.}
         \resumeItemListEnd
 		% \vspace{5pt}
         % \resumeSubheading{Creed\&Bear}{Dubai, UAE} {Quantum Computing Intern}{January 2025 - June 2025}
@@ -215,7 +222,7 @@ Final-year CS/AI student with hands-on research experience across the full robot
 %-----------PROJECTS-----------------
 \section{Projects}
 	\resumeSubHeadingListStart
-		\resumeSubItem{Kernal Intelligence through Expert Fine-tuning (KITE)}{A fine tuned Small Language Model (SLM) that has been trained on a handmade dataset of Python and CUDA pairs to train the SLM to convert unoptimized Python code to optimized CUDA code $\vert$ \textbf{Tech: Python, OpenAI Triton, CUDA} (May 2025) $\vert$ {\textbf{To be released soon}}}
+		\resumeSubItem{Kernel Intelligence through Expert Fine-tuning (KITE)}{A fine tuned Small Language Model (SLM) that has been trained on a handmade dataset of Python and CUDA pairs to train the SLM to convert unoptimized Python code to optimized CUDA code $\vert$ \textbf{Tech: Python, OpenAI Triton, CUDA} (May 2025) $\vert$ {\textbf{To be released soon}}}
 		\vspace*{4pt}
         \resumeSubItem{Hydrakon V1 and V2}{Worked with a team of 9 to build an autonomous racing car (Simulation and Hardware Integration) for Formula Student UK $\vert$ \textbf{Tech: CARLA, YOLO, ROS2, Cartographer, Python, C} (April 2025) $\vert$ \href{https://github.com/Atlas-Racing}{\textbf{https://github.com/Atlas-Racing}}}
 		\vspace*{4pt}
@@ -275,16 +282,23 @@ Final-year CS/AI student with hands-on research experience across the full robot
 
 \section{Leadership and Volunteering Experience}
 \resumeSubHeadingListStart
-        \resumeSubheading{{Google Developer Groups}}{Dubai, UAE}{Lead of AI and ML}{May 2025 - Present}
+        \resumeSubheading{{Google Developer Groups}}{Dubai, UAE}{Lead of AI and ML}{May 2025 - July 2026}
         \resumeItemListStart
 			\resumeItemWithoutTitle{Promoted from Co-lead to Lead after organizing a successful workshop with \textbf{120+ attendees}, demonstrating exceptional event management and technical presentation skills}
 		\resumeItemListEnd
 	\resumeSubHeadingListEnd
 
 	\resumeSubHeadingListStart
-        \resumeSubheading{{Heriot Watt University}}{Dubai, UAE}{MACS Department Officer}{August 2025 - Present}
+        \resumeSubheading{{Heriot Watt University}}{Dubai, UAE}{MACS Department Officer}{August 2025 - July 2026}
         \resumeItemListStart
 		  \resumeItemWithoutTitle{Lead a team of \textbf{12 class representatives} across all MACS courses, serving as primary student advocate in faculty committees and implementing policy changes impacting \textbf{600+ students}}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+        \resumeSubheading{{Heriot Watt University}}{Dubai, UAE}{Lead Copy Editor and Typesetter, \textit{International Social Capital Conference}}{September 2026 - Present}
+        \resumeItemListStart
+		  \resumeItemWithoutTitle{Lead copy editing and serve as the main typesetter for Volume 1 of the \textit{Proceedings of the International Social Capital Conference} (Social Capital 2026, International Social Capital Association), building the publication format and layout used for the papers}
 		\resumeItemListEnd
 	\resumeSubHeadingListEnd
 
