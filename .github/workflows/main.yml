@@ -7,10 +7,10 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
       - name: Compile CV_robotics
-        uses: xu-cheng/latex-action@v2
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: CV_robotics.tex
-          latexmk_use_xelatex: true
+          texlive_version: 2025
       - name: Check output
         run: ls
       - name: Release
